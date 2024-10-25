@@ -1,3 +1,9 @@
+/*  The '*' Wildcard is used to overwrite default browser styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* Header */
 header{
     background-color: aqua;
