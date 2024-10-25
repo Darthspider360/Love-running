@@ -20,7 +20,16 @@ body{
 
 /* Header */
 header{
-    background-color: aqua;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    /*Box-shadow:
+    the first value is the horizontal offset negative values to the left, positive to the right. 
+    The second is the verticle offset negative is above, positive is below. 
+    The last number is the hardeness of blur*/
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1{
