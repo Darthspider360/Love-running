@@ -186,6 +186,15 @@ hr {
     /* Overriding color set to all h3 earlier  */
     color: #fafafa;
 }
+/* Gallery page*/
+#photos img{
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos{
+    line-height: 0;
+}
 
 /* Footer */
 #social-networks{
