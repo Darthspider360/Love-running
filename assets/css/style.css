@@ -156,6 +156,33 @@ hr {
     justify-content: center;
 }
 
+#times{
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+
+    /* creates responsivity without needing to use media quieries */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* this will only work on screens over 400px wide. 
+    each div will expand to fill the space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+
+    /* Creates a grid around the divs*/
+    border: 2px solid white;
+}
+
+#times h3{ 
+    /* Overriding color set to all h3 earlier  */
+    color: #fafafa;
+}
+
 /* Footer */
 #social-networks{
     text-align: center;
